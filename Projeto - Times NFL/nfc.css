@@ -3,13 +3,12 @@
     width: 100%;
     display: grid;
     grid-template-areas:
-    "titulo titulo"
-    "botao botao"
+    "titulo titulo titulo titulo"
+    "botao botao botao botao"
     "subtitulo subtitulo"
     "b1 b2";
     column-gap: 10px;
     text-align: center;
-
 }
 
 :root {
@@ -32,32 +31,6 @@ body *{
     color: var(--text-color);
 }
 
-#box-1{
-    grid-area: b1;
-    background-color: #062C63;
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    height: 500px;
-    margin-bottom: 100px;
-}
-
-#box-1:hover{
-    opacity: 0.5;
-}
-
-#box-2{
-    grid-area: b2;
-    background-color: #D00C27;
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    height: 500px;
-    margin-bottom: 100px;
-}
-
-#box-2:hover{
-    opacity: 0.5;
-}
-
 #titulo{
     grid-area: titulo;
     font-family: 'Merriweather', serif;
@@ -66,19 +39,18 @@ body *{
 
 #botao{
     grid-area: botao;
-    background-color: rgba(214, 214, 214);
+    border: 1px solid red;
     position: relative;
     width: 64px;
     margin: 4px auto;
-    border-radius: 999px;
+    background-image: var(--switch-bg-url);
 }
+
 
 #botao button{
     width: 32px;
     height: 32px;
     background: white no-repeat center;
-    background-image: var(--switch-bg-url);
-    background-size: 27px 27px;
     border: 0;
     border-radius: 50%;
 
@@ -100,28 +72,4 @@ body *{
     width: 64px;
     height: 24px;
     border-radius: 9999px;
-}
-
-#subtitulo{
-    grid-area: subtitulo;
-    font-family: 'Lora', serif;
-    font-size: 25px;
-}
-
-.box{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-right: 200px;
-    margin-left: 200px;
-}
-
-.box img{
-    width: 80%;
-    height: auto;
-    margin-top: 25px;
-}
-
-.box-subtitulo{
-    margin-top: 300px;
 }
