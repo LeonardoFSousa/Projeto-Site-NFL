@@ -118,7 +118,7 @@ a {
     text-align: center;
     margin: auto;
     width: 500px;
-    height: 714px;
+    height: 700px;
     border-radius: 9px;
 }
 
@@ -141,7 +141,6 @@ a {
 
 .boxcaracteristicas {
     position: absolute;
-    border: 1px solid blue;
     width: 500px;
     margin-bottom: 0%;
     border-radius: 9px;
@@ -149,54 +148,91 @@ a {
 }
 
 .boxlocal {
-    border: 1px solid green;
-    border-radius: 9px;
+    border: 1px solid  rgba(214, 214, 214);;
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxlocal img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
 }
 
+.boxlocal p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
 .boxestadio {
-    border: 1px solid purple;
-    border-radius: 9px;
+    border: 1px solid rgba(195, 195, 195);
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(195, 195, 195);
+    text-align: left;
 }
 
 .boxestadio img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
 }
 
+.boxestadio p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
 .boxsuperbowl {
-    border: 1px solid yellow;
-    border-radius: 9px;
+    border: 1px solid rgba(214, 214, 214);;
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxsuperbowl img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
 }
 
+.boxsuperbowl p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
 .boxtwitter {
-    border: 1px solid red;
-    border-radius: 9px;
+    border: 1px solid rgba(195, 195, 195);
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(195, 195, 195);
 }
 
 .boxtwitter img{
@@ -209,9 +245,10 @@ a {
 }
 
 .boxinsta {
-    border: 1px solid gold;
-    border-radius: 9px;
+    border: 1px solid rgba(214, 214, 214);;
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
 }
 
 .boxinsta img{
@@ -224,46 +261,83 @@ a {
 }
 
 .boxjogador {
-    border: 1px solid royalblue;
-    border-radius: 9px;
+    border: 1px solid rgba(195, 195, 195);
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(195, 195, 195);
+    text-align: left;
 }
 
 .boxjogador img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
 }
 
+.boxjogador p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
 .boxtecnico {
-    border: 1px solid purple;
-    border-radius: 9px;
+    border: 1px solid rgba(214, 214, 214);;
     position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxtecnico img{
     width: 30px;
     height: 30px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
 }
 
+.boxtecnico p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
 .boxtorcedores {
-    border: 1px solid springgreen;
-    border-radius: 9px;
+    border: 1px solid rgba(195, 195, 195);
     position: relative;
+    background-color: rgba(195, 195, 195);
+    height: 55px;
+    border-radius: 9px;
+    text-align: left;
 }
 
 .boxtorcedores img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxtorcedores p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
 }
