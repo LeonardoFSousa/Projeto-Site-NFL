@@ -7,7 +7,9 @@
     "subtitulo1 subtitulo1 subtitulo1 subtitulo1"
     "a1 a2 a3 a4"
     "subtitulo2 subtitulo2 subtitulo2 subtitulo2"
-    "b1 b2 b3 b4";
+    "b1 b2 b3 b4"
+    "subtitulo3 subtitulo3 subtitulo3 subtitulo3"
+    "c1 c2 c3 c4";
    /* column-gap: 10px; */
     text-align: center;
 
@@ -370,7 +372,6 @@ a {
 }
 
 .boxeast{
-    border: 1px solid rgba(214, 214, 214);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -592,4 +593,255 @@ a {
 
 #commanders-logo img{
     width: 250px;
+}
+
+#subtitulo3{
+    grid-area: subtitulo3;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+}
+
+#sanfrancisco{
+    grid-area: c1;
+    margin-bottom: 100px;
+}
+
+#seahawks{
+    grid-area: c2;
+    margin-bottom: 100px;
+}
+
+#rams{
+    grid-area: c3;
+    margin-bottom: 100px;
+}
+
+#cardinals{
+    grid-area: c4;
+    margin-bottom: 100px;
+}
+
+.boxwest{
+    border: 1px solid rgba(214, 214, 214);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    border-radius: 9px;
+}
+
+.boxwest img{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-top: 25px;
+}
+
+.boxcaracteristicas {
+    position: absolute;
+    width: 500px;
+    margin-bottom: 0%;
+    border-radius: 9px;
+
+}
+
+.boxlocal {
+    border: 1px solid  rgba(214, 214, 214);;
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+    text-align: left;
+}
+
+.boxlocal img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    left: 7px !important;
+    top: -10px !important;
+    vertical-align: middle;
+
+}
+
+.boxlocal p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxestadio {
+    border: 1px solid rgba(195, 195, 195);
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(195, 195, 195);
+    text-align: left;
+}
+
+.boxestadio img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    left: 7px !important;
+    top: -10px !important;
+    vertical-align: middle;
+
+}
+
+.boxestadio p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxsuperbowl {
+    border: 1px solid rgba(214, 214, 214);;
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+    text-align: left;
+}
+
+.boxsuperbowl img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    left: 7px !important;
+    top: -10px !important;
+    vertical-align: middle;
+
+}
+
+.boxsuperbowl p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtwitter {
+    border: 1px solid rgba(195, 195, 195);
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(195, 195, 195);
+}
+
+.boxtwitter img{
+    width: 25px;
+    height: 25px;
+    display: block;
+    left: 7px !important;
+    top: -10px !important;
+
+}
+
+.boxinsta {
+    border: 1px solid rgba(214, 214, 214);;
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+}
+
+.boxinsta img{
+    width: 35px;
+    height: 35px;
+    display: block;
+    left: 2px !important;
+    top: -10px !important;
+
+}
+
+.boxjogador {
+    border: 1px solid rgba(195, 195, 195);
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(195, 195, 195);
+    text-align: left;
+}
+
+.boxjogador img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    left: 7px !important;
+    top: -10px !important;
+    vertical-align: middle;
+
+}
+
+.boxjogador p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtecnico {
+    border: 1px solid rgba(214, 214, 214);;
+    position: relative;
+    border-radius: 9px;
+    background-color: rgba(214, 214, 214);
+    text-align: left;
+}
+
+.boxtecnico img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    left: 7px !important;
+    top: -10px !important;
+    vertical-align: middle;
+
+}
+
+.boxtecnico p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtorcedores {
+    border: 1px solid rgba(195, 195, 195);
+    position: relative;
+    background-color: rgba(195, 195, 195);
+    height: 55px;
+    border-radius: 9px;
+    text-align: left;
+}
+
+.boxtorcedores img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    left: 7px !important;
+    top: -10px !important;
+    vertical-align: middle;
+
+}
+
+.boxtorcedores p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+#rams-logo img{
+    width: 220px;
 }
