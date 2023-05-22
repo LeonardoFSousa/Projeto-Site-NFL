@@ -18,7 +18,7 @@ function botaolegenda(){
     overlay.style.display = "flex";
 
     overlay.onclick = function() {
-        overlay.style.display = "none"; // Esconde a sobreposição quando clicado fora da imagem
+        overlay.style.display = "none";
       }
 }
 
