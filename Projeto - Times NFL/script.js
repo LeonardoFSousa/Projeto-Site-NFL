@@ -11,3 +11,14 @@ function botao(){
         html.classList.add('light');
     }
 }
+
+function botaolegenda(){
+
+    var overlay = document.getElementById("imagem-legenda");
+    overlay.style.display = "flex";
+
+    overlay.onclick = function() {
+        overlay.style.display = "none"; // Esconde a sobreposição quando clicado fora da imagem
+      }
+}
+

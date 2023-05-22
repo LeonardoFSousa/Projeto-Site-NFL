@@ -4,6 +4,7 @@
     grid-template-areas:
     "titulo titulo titulo titulo"
     "botao botao botao botao"
+    "botaol botaol botaol botaol"
     "subtitulo1 subtitulo1 subtitulo1 subtitulo1"
     "a1 a2 a3 a4"
     "subtitulo2 subtitulo2 subtitulo2 subtitulo2"
@@ -84,6 +85,33 @@ a {
     width: 64px;
     height: 24px;
     border-radius: 9999px;
+}
+
+#botaolegenda {
+    grid-area: botaol;
+    margin-top: 50px;
+}
+
+#legenda {
+    color: black;
+    border-radius: 999px;
+}
+
+#imagem-legenda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem-legenda img{
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .box-subtitulo{
@@ -266,7 +294,7 @@ a {
 }
 
 .boxtwitter a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -305,7 +333,7 @@ a {
 }
 
 .boxinsta a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -557,7 +585,7 @@ a {
 }
 
 .boxtwitter a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -593,7 +621,7 @@ a {
 }
 
 .boxinsta a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -849,7 +877,7 @@ a {
 }
 
 .boxtwitter a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -885,7 +913,7 @@ a {
 }
 
 .boxinsta a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -1141,7 +1169,7 @@ a {
 }
 
 .boxtwitter a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
@@ -1177,7 +1205,7 @@ a {
 }
 
 .boxinsta a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0) !important;
     transition: 0.5s;
 }
 
