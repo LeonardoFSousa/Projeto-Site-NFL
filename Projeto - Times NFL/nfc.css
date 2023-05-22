@@ -42,7 +42,6 @@ a {
     text-decoration: none !important;
 }
 
-
 #titulo{
     grid-area: titulo;
     font-family: 'Merriweather', serif;
@@ -238,15 +237,36 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(195, 195, 195);
+    text-align: left;
 }
 
 .boxtwitter img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxtwitter p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtwitter a{
+    text-decoration: underline !important;
+    text-decoration-style: dashed !important;
+}
+
+.boxtwitter a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxinsta {
@@ -254,15 +274,34 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxinsta img{
     width: 35px;
     height: 35px;
-    display: block;
+    display: inline-block;
     left: 2px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxinsta p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+    text-decoration: underline !important;
+    text-decoration-style: dashed !important;
+
+}
+
+.boxinsta a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxjogador {
@@ -484,15 +523,36 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(195, 195, 195);
+    text-align: left;
 }
 
 .boxtwitter img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxtwitter p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtwitter a{
+    text-decoration: underline !important;
+    text-decoration-style: dashed !important;
+}
+
+.boxtwitter a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxinsta {
@@ -500,15 +560,31 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxinsta img{
     width: 35px;
     height: 35px;
-    display: block;
+    display: inline-block;
     left: 2px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxinsta p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxinsta a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxjogador {
@@ -734,15 +810,36 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(195, 195, 195);
+    text-align: left;
 }
 
 .boxtwitter img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxtwitter p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtwitter a{
+    text-decoration: underline !important;
+    text-decoration-style: dashed !important;
+}
+
+.boxtwitter a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxinsta {
@@ -750,15 +847,31 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxinsta img{
     width: 35px;
     height: 35px;
-    display: block;
+    display: inline-block;
     left: 2px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxinsta p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxinsta a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxjogador {
@@ -984,15 +1097,36 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(195, 195, 195);
+    text-align: left;
 }
 
 .boxtwitter img{
     width: 25px;
     height: 25px;
-    display: block;
+    display: inline-block;
     left: 7px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxtwitter p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxtwitter a{
+    text-decoration: underline !important;
+    text-decoration-style: dashed !important;
+}
+
+.boxtwitter a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxinsta {
@@ -1000,15 +1134,31 @@ a {
     position: relative;
     border-radius: 9px;
     background-color: rgba(214, 214, 214);
+    text-align: left;
 }
 
 .boxinsta img{
     width: 35px;
     height: 35px;
-    display: block;
+    display: inline-block;
     left: 2px !important;
     top: -10px !important;
+    vertical-align: middle;
 
+}
+
+.boxinsta p{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: large;
+    color: black !important;
+}
+
+.boxinsta a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
 }
 
 .boxjogador {
