@@ -262,6 +262,7 @@ a {
 .boxtwitter a{
     text-decoration: underline !important;
     text-decoration-style: dashed !important;
+    color: black !important;
 }
 
 .boxtwitter a:hover{
@@ -297,6 +298,10 @@ a {
     text-decoration: underline !important;
     text-decoration-style: dashed !important;
 
+}
+
+.boxinsta a{
+    color: black !important;
 }
 
 .boxinsta a:hover{
@@ -548,6 +553,7 @@ a {
 .boxtwitter a{
     text-decoration: underline !important;
     text-decoration-style: dashed !important;
+    color: black !important;
 }
 
 .boxtwitter a:hover{
@@ -579,6 +585,10 @@ a {
     vertical-align: middle;
     font-family: 'Zilla Slab', serif;
     font-size: large;
+    color: black !important;
+}
+
+.boxinsta a{
     color: black !important;
 }
 
@@ -835,6 +845,7 @@ a {
 .boxtwitter a{
     text-decoration: underline !important;
     text-decoration-style: dashed !important;
+    color: black !important;
 }
 
 .boxtwitter a:hover{
@@ -866,6 +877,10 @@ a {
     vertical-align: middle;
     font-family: 'Zilla Slab', serif;
     font-size: large;
+    color: black !important;
+}
+
+.boxinsta a{
     color: black !important;
 }
 
@@ -1122,6 +1137,7 @@ a {
 .boxtwitter a{
     text-decoration: underline !important;
     text-decoration-style: dashed !important;
+    color: black !important;
 }
 
 .boxtwitter a:hover{
@@ -1153,6 +1169,10 @@ a {
     vertical-align: middle;
     font-family: 'Zilla Slab', serif;
     font-size: large;
+    color: black !important;
+}
+
+.boxinsta a{
     color: black !important;
 }
 
